@@ -8,12 +8,14 @@
 import pyshark
 import pandas as pd
 
-frames = pyshark.FileCapture('data/beacon-asusdb202.pcap')
-# frames = pyshark.FileCapture('data/beacon-mrdrivingduck.pcap')
+# ap_name = 'asusdb202'
+ap_name = 'mrdrivingduck'
+ap_name = 'surface-soft'
+frames = pyshark.FileCapture('data/beacon-' + ap_name + '.pcap')
 
 rssi_arr = [pkt.radiotap.dbm_antsignal for pkt in frames]
 df = pd.DataFrame({"rssi": rssi_arr})
 print(df)
-df.to_csv('out/rssi.csv')
+df.to_csv('out/' + ap_name + '.csv')
 
 frames.close()
