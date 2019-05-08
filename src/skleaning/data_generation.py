@@ -105,4 +105,4 @@ def data_generation(ap_index, iteration, sample_len):
     export_to_file('testing/' + ap_name[ap_index] + '.csv', predict_arr, reality_arr)
 
 
-data_generation(13, 500, 100)
+data_generation(12, 500, 100)

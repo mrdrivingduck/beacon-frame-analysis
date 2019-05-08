@@ -47,24 +47,24 @@ def run(running_index):
     print('------ Training ------')
     clf_log_reg = LogisticRegression(random_state=0, solver='lbfgs', multi_class='multinomial')\
         .fit(training_data, training_label)
-    clf_lin_reg = LinearRegression(fit_intercept=True, normalize=False, copy_X=True, n_jobs=1)\
-        .fit(training_data, training_label)
+    # clf_lin_reg = LinearRegression(fit_intercept=True, normalize=False, copy_X=True, n_jobs=1)\
+    #     .fit(training_data, training_label)
     clf_svm = SVC(C=1.0, kernel='rbf', gamma='auto')\
         .fit(training_data, training_label)
     clf_gau_nb = GaussianNB()\
         .fit(training_data, training_label)
-    clf_mul_nb = MultinomialNB()\
-        .fit(training_data, training_label)
-    clf_ber_nb = BernoulliNB()\
-        .fit(training_data, training_label)
+    # clf_mul_nb = MultinomialNB()\
+    #     .fit(training_data, training_label)
+    # clf_ber_nb = BernoulliNB()\
+    #     .fit(training_data, training_label)
 
     clf_arr = [
         ['Logistic Regression', clf_log_reg],
-        ['Linear Regression', clf_lin_reg],
+        # ['Linear Regression', clf_lin_reg],
         ['SVM', clf_svm],
-        ['Gaussian Naive Bayes', clf_gau_nb],
-        ['polynomial Naive Bayes', clf_mul_nb],
-        ['Bernoulli Naive Bayes', clf_ber_nb]
+        ['Gaussian Naive Bayes', clf_gau_nb]
+        # ['polynomial Naive Bayes', clf_mul_nb],
+        # ['Bernoulli Naive Bayes', clf_ber_nb]
     ]
 
     print('------ Testing ------')
