@@ -22,7 +22,8 @@ ap_name = [
     'portal-juniper',
     'portal-trapeze',
     'qwer',
-    'surface'
+    'surface',
+    'bigboy'
 ]
 
 for i in range(len(ap_name)):

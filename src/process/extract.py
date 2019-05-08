@@ -1,6 +1,6 @@
 """
     @author mrdrivingduck
-    @version 2019-05-07
+    @version 2019-05-08
     @description
         To extract features from beacon frames using pyshark
 """
@@ -22,7 +22,8 @@ ap_name = [
     'portal-juniper',
     'portal-trapeze',
     'qwer',
-    'surface'
+    'surface',
+    'bigboy'
 ]
 
 for i in range(len(ap_name)):
