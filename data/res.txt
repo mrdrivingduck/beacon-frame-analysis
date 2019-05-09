@@ -1,0 +1,210 @@
+Loading data: asc-201
+Loading data: mrdrivingduck
+Loading data: bigboy
+Loading data: asus-db202
+Loading data: cca01
+Loading data: dlink
+Loading data: mrdk
+Loading data: portal-juniper
+Loading data: portal-trapeze
+Loading data: qwer
+Loading data: chaoweilanmao-soft
+Loading data: surface
+Loading data: chaoweilanmao-huawei
+Loading data: iphonex
+AP - asc-201
+  [asc-201] [mrdrivingduck] : True
+  [asc-201] [bigboy] : True
+  [asc-201] [asus-db202] : True
+  [asc-201] [cca01] : False
+  [asc-201] [dlink] : True
+  [asc-201] [mrdk] : True
+  [asc-201] [portal-juniper] : True
+  [asc-201] [portal-trapeze] : True
+  [asc-201] [qwer] : True
+  [asc-201] [chaoweilanmao-soft] : True
+  [asc-201] [surface] : True
+  [asc-201] [chaoweilanmao-huawei] : True
+  [asc-201] [iphonex] : True
+AP - mrdrivingduck
+  [mrdrivingduck] [asc-201] : True
+  [mrdrivingduck] [bigboy] : False
+  [mrdrivingduck] [asus-db202] : True
+  [mrdrivingduck] [cca01] : True
+  [mrdrivingduck] [dlink] : True
+  [mrdrivingduck] [mrdk] : True
+  [mrdrivingduck] [portal-juniper] : True
+  [mrdrivingduck] [portal-trapeze] : True
+  [mrdrivingduck] [qwer] : True
+  [mrdrivingduck] [chaoweilanmao-soft] : True
+  [mrdrivingduck] [surface] : True
+  [mrdrivingduck] [chaoweilanmao-huawei] : True
+  [mrdrivingduck] [iphonex] : True
+AP - bigboy
+  [bigboy] [asc-201] : True
+  [bigboy] [mrdrivingduck] : False
+  [bigboy] [asus-db202] : True
+  [bigboy] [cca01] : True
+  [bigboy] [dlink] : True
+  [bigboy] [mrdk] : True
+  [bigboy] [portal-juniper] : True
+  [bigboy] [portal-trapeze] : True
+  [bigboy] [qwer] : True
+  [bigboy] [chaoweilanmao-soft] : True
+  [bigboy] [surface] : True
+  [bigboy] [chaoweilanmao-huawei] : True
+  [bigboy] [iphonex] : True
+AP - asus-db202
+  [asus-db202] [asc-201] : True
+  [asus-db202] [mrdrivingduck] : True
+  [asus-db202] [bigboy] : True
+  [asus-db202] [cca01] : True
+  [asus-db202] [dlink] : True
+  [asus-db202] [mrdk] : True
+  [asus-db202] [portal-juniper] : True
+  [asus-db202] [portal-trapeze] : True
+  [asus-db202] [qwer] : True
+  [asus-db202] [chaoweilanmao-soft] : True
+  [asus-db202] [surface] : True
+  [asus-db202] [chaoweilanmao-huawei] : True
+  [asus-db202] [iphonex] : True
+AP - cca01
+  [cca01] [asc-201] : False
+  [cca01] [mrdrivingduck] : True
+  [cca01] [bigboy] : True
+  [cca01] [asus-db202] : True
+  [cca01] [dlink] : True
+  [cca01] [mrdk] : True
+  [cca01] [portal-juniper] : True
+  [cca01] [portal-trapeze] : True
+  [cca01] [qwer] : True
+  [cca01] [chaoweilanmao-soft] : True
+  [cca01] [surface] : True
+  [cca01] [chaoweilanmao-huawei] : True
+  [cca01] [iphonex] : True
+AP - dlink
+  [dlink] [asc-201] : True
+  [dlink] [mrdrivingduck] : True
+  [dlink] [bigboy] : True
+  [dlink] [asus-db202] : True
+  [dlink] [cca01] : True
+  [dlink] [mrdk] : True
+  [dlink] [portal-juniper] : True
+  [dlink] [portal-trapeze] : True
+  [dlink] [qwer] : True
+  [dlink] [chaoweilanmao-soft] : True
+  [dlink] [surface] : True
+  [dlink] [chaoweilanmao-huawei] : True
+  [dlink] [iphonex] : True
+AP - mrdk
+  [mrdk] [asc-201] : True
+  [mrdk] [mrdrivingduck] : True
+  [mrdk] [bigboy] : True
+  [mrdk] [asus-db202] : True
+  [mrdk] [cca01] : True
+  [mrdk] [dlink] : True
+  [mrdk] [portal-juniper] : True
+  [mrdk] [portal-trapeze] : True
+  [mrdk] [qwer] : True
+  [mrdk] [chaoweilanmao-soft] : True
+  [mrdk] [surface] : True
+  [mrdk] [chaoweilanmao-huawei] : True
+  [mrdk] [iphonex] : True
+AP - portal-juniper
+  [portal-juniper] [asc-201] : True
+  [portal-juniper] [mrdrivingduck] : True
+  [portal-juniper] [bigboy] : True
+  [portal-juniper] [asus-db202] : True
+  [portal-juniper] [cca01] : True
+  [portal-juniper] [dlink] : True
+  [portal-juniper] [mrdk] : True
+  [portal-juniper] [portal-trapeze] : False
+  [portal-juniper] [qwer] : True
+  [portal-juniper] [chaoweilanmao-soft] : True
+  [portal-juniper] [surface] : True
+  [portal-juniper] [chaoweilanmao-huawei] : True
+  [portal-juniper] [iphonex] : True
+AP - portal-trapeze
+  [portal-trapeze] [asc-201] : True
+  [portal-trapeze] [mrdrivingduck] : True
+  [portal-trapeze] [bigboy] : True
+  [portal-trapeze] [asus-db202] : True
+  [portal-trapeze] [cca01] : True
+  [portal-trapeze] [dlink] : True
+  [portal-trapeze] [mrdk] : True
+  [portal-trapeze] [portal-juniper] : False
+  [portal-trapeze] [qwer] : True
+  [portal-trapeze] [chaoweilanmao-soft] : True
+  [portal-trapeze] [surface] : True
+  [portal-trapeze] [chaoweilanmao-huawei] : True
+  [portal-trapeze] [iphonex] : True
+AP - qwer
+  [qwer] [asc-201] : True
+  [qwer] [mrdrivingduck] : True
+  [qwer] [bigboy] : True
+  [qwer] [asus-db202] : True
+  [qwer] [cca01] : True
+  [qwer] [dlink] : True
+  [qwer] [mrdk] : True
+  [qwer] [portal-juniper] : True
+  [qwer] [portal-trapeze] : True
+  [qwer] [chaoweilanmao-soft] : True
+  [qwer] [surface] : True
+  [qwer] [chaoweilanmao-huawei] : True
+  [qwer] [iphonex] : True
+AP - chaoweilanmao-soft
+  [chaoweilanmao-soft] [asc-201] : True
+  [chaoweilanmao-soft] [mrdrivingduck] : True
+  [chaoweilanmao-soft] [bigboy] : True
+  [chaoweilanmao-soft] [asus-db202] : True
+  [chaoweilanmao-soft] [cca01] : True
+  [chaoweilanmao-soft] [dlink] : True
+  [chaoweilanmao-soft] [mrdk] : True
+  [chaoweilanmao-soft] [portal-juniper] : True
+  [chaoweilanmao-soft] [portal-trapeze] : True
+  [chaoweilanmao-soft] [qwer] : True
+  [chaoweilanmao-soft] [surface] : True
+  [chaoweilanmao-soft] [chaoweilanmao-huawei] : True
+  [chaoweilanmao-soft] [iphonex] : True
+AP - surface
+  [surface] [asc-201] : True
+  [surface] [mrdrivingduck] : True
+  [surface] [bigboy] : True
+  [surface] [asus-db202] : True
+  [surface] [cca01] : True
+  [surface] [dlink] : True
+  [surface] [mrdk] : True
+  [surface] [portal-juniper] : True
+  [surface] [portal-trapeze] : True
+  [surface] [qwer] : True
+  [surface] [chaoweilanmao-soft] : True
+  [surface] [chaoweilanmao-huawei] : True
+  [surface] [iphonex] : True
+AP - chaoweilanmao-huawei
+  [chaoweilanmao-huawei] [asc-201] : True
+  [chaoweilanmao-huawei] [mrdrivingduck] : True
+  [chaoweilanmao-huawei] [bigboy] : True
+  [chaoweilanmao-huawei] [asus-db202] : True
+  [chaoweilanmao-huawei] [cca01] : True
+  [chaoweilanmao-huawei] [dlink] : True
+  [chaoweilanmao-huawei] [mrdk] : True
+  [chaoweilanmao-huawei] [portal-juniper] : True
+  [chaoweilanmao-huawei] [portal-trapeze] : True
+  [chaoweilanmao-huawei] [qwer] : True
+  [chaoweilanmao-huawei] [chaoweilanmao-soft] : True
+  [chaoweilanmao-huawei] [surface] : True
+  [chaoweilanmao-huawei] [iphonex] : True
+AP - iphonex
+  [iphonex] [asc-201] : True
+  [iphonex] [mrdrivingduck] : True
+  [iphonex] [bigboy] : True
+  [iphonex] [asus-db202] : True
+  [iphonex] [cca01] : True
+  [iphonex] [dlink] : True
+  [iphonex] [mrdk] : True
+  [iphonex] [portal-juniper] : True
+  [iphonex] [portal-trapeze] : True
+  [iphonex] [qwer] : True
+  [iphonex] [chaoweilanmao-soft] : True
+  [iphonex] [surface] : True
+  [iphonex] [chaoweilanmao-huawei] : True

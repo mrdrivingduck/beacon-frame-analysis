@@ -23,7 +23,7 @@ ap_name = [
     'chaoweilanmao-soft',
     'surface',
     'chaoweilanmao-huawei',
-    'iphonex',
+    'iphonex'
 ]
 
 
@@ -63,31 +63,40 @@ def extract_param(pkt_str):
 def diff(new_pkt, old_pkt):
     for key in new_pkt.keys():
         if isinstance(new_pkt[key], list):
-            for index in range(len(new_pkt[key])):
-                if new_pkt[key][index] != old_pkt[key][index]:
-                    return True
+            if len(new_pkt[key]) != len(old_pkt[key]):
+                return True
+            else:
+                for index in range(len(new_pkt[key])):
+                    if new_pkt[key][index] != old_pkt[key][index]:
+                        return True
         else:
             if new_pkt[key] != old_pkt[key]:
                 return True
     return False
 
 
+ap_pkts_arr = []
 for i in range(len(ap_name)):
     frames = pyshark.FileCapture('data/beacon-' + ap_name[i] + '.pcap')
+    print('Loading data: ' + ap_name[i])
+    pkts = []
+    count = 0
+    for pkt in frames:
+        if count == 0:
+            pkts.append(pkt[3].__str__())
+        count = count + 1
+    ap_pkts_arr.append(pkts)
+    frames.close()
+
+for i in range(len(ap_pkts_arr)):
     print('AP - ' + ap_name[i])
 
-    """
-        @function Extracting fixed fields in string format
-    """
     param = None
-    diff_count = 0
-    for pkt in frames:
-        new_param = extract_param(pkt[3].__str__())
-        if param is None:
-            param = new_param
-        elif diff(new_param, param):
-            param = new_param
-            diff_count = diff_count + 1
-    print('AP - ' + ap_name[i] + ' diff count: ' + str(diff_count))
+    comp_param = None
 
-    frames.close()
+    param = extract_param(ap_pkts_arr[i][0])
+
+    for j in range(len(ap_pkts_arr)):
+        if j != i:
+            comp_param = extract_param(ap_pkts_arr[j][0])
+            print('  [' + ap_name[i] + '] [' + ap_name[j] + '] : ' + str(diff(param, comp_param)))
