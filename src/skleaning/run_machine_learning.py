@@ -15,19 +15,19 @@ from sklearn.svm import SVC
 
 ap_name = [
     'asc-201',
+    'mrdrivingduck',
+    'bigboy',
     'asus-db202',
     'cca01',
-    'chaoweilanmao-huawei',
-    'chaoweilanmao-soft',
     'dlink',
-    'iphonex',
     'mrdk',
-    'mrdrivingduck',
     'portal-juniper',
     'portal-trapeze',
     'qwer',
+    'chaoweilanmao-soft',
     'surface',
-    'bigboy'
+    'chaoweilanmao-huawei',
+    'iphonex',
 ]
 
 

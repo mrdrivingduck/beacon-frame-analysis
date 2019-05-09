@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2af7073-032e-4c07-91c2-8564cbcbd154" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/process/extract_param.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/process/extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/process/extract_rssi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/skleaning/data_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/skleaning/data_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skleaning/logisticregression_rssi.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/skleaning/run_machine_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/skleaning/run_machine_learning.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/process/extract.py">
+        <entry file="file://$PROJECT_DIR$/src/process/extract_rssi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="179">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="e#137#151#0" expanded="true" />
               </folding>
@@ -30,34 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/seabornlearning/displot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-              <folding>
-                <element signature="e#102#121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/skleaning/logisticregression_rssi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
-              <folding>
-                <element signature="e#111#162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/skleaning/data_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+            <state relative-caret-position="44">
+              <caret line="10" selection-start-line="10" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#102#121#0" expanded="true" />
               </folding>
@@ -66,10 +45,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/skleaning/run_machine_learning.py">
+        <entry file="file://$PROJECT_DIR$/src/process/extract_param.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+            <state relative-caret-position="34">
+              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/pretty.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -88,6 +76,17 @@
       <find>x</find>
       <find>train_index</find>
       <find>test_set</find>
+      <find>pkt[3].pretty_print()</find>
+      <find>Extended Supported Rates</find>
+      <find>Tag length</find>
+      <find>Beacon Interval</find>
+      <find>Supported Rates</find>
+      <find>Supported Rates:</find>
+      <find>Extended Supported Rates:</find>
+      <find>Vendor Specific</find>
+      <find>Tag: Vendor Specific:</find>
+      <find>DTIM</find>
+      <find>Capabilities:</find>
     </findStrings>
     <replaceStrings>
       <replace>rssi_arr</replace>
@@ -115,9 +114,13 @@
         <option value="$PROJECT_DIR$/src/skleaning/run.py" />
         <option value="$PROJECT_DIR$/src/skleaning/distance.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/process/extract.py" />
         <option value="$PROJECT_DIR$/src/skleaning/data_generation.py" />
         <option value="$PROJECT_DIR$/src/skleaning/run_machine_learning.py" />
+        <option value="$PROJECT_DIR$/src/process/extract.py" />
+        <option value="$PROJECT_DIR$/data/str.txt" />
+        <option value="$PROJECT_DIR$/data/pretty.txt" />
+        <option value="$PROJECT_DIR$/src/process/extract_rssi.py" />
+        <option value="$PROJECT_DIR$/src/process/extract_param.py" />
       </list>
     </option>
   </component>
@@ -139,6 +142,11 @@
             <path>
               <item name="beacon-frame-analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="beacon-frame-analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beacon-frame-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beacon-frame-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beacon-frame-analysis" type="b2602c69:ProjectViewProjectNode" />
@@ -186,6 +194,9 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Local Repositories\beacon-frame-analysis\src\process" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jingtang Zhang\Desktop\beacon-frame-analysis\src\process" />
       <recent name="C:\Users\Jingtang Zhang\Desktop\beacon-frame-analysis\src\pandas" />
@@ -203,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_machine_learning">
+  <component name="RunManager" selected="Python.extract_param">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="beacon-frame-analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,7 +299,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="extract" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="extract_param" type="PythonConfigurationType" factoryName="Python">
       <module name="beacon-frame-analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,7 +311,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/process/extract.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/process/extract_param.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="extract_rssi" type="PythonConfigurationType" factoryName="Python">
+      <module name="beacon-frame-analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/process/extract_rssi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -394,12 +426,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.extract" />
       <item itemvalue="Python.displot" />
       <item itemvalue="Python.dataframe" />
       <item itemvalue="Python.logisticregression_rssi" />
       <item itemvalue="Python.data_generation" />
       <item itemvalue="Python.run_machine_learning" />
+      <item itemvalue="Python.extract_rssi" />
+      <item itemvalue="Python.extract_param" />
       <item itemvalue="Python.__init__" />
       <item itemvalue="Python.logisticregression" />
       <item itemvalue="Python.logisticregression_iris" />
@@ -427,8 +460,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49802372" visible="true" weight="0.2126394" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49802372" visible="true" weight="0.2126394" />
       <window_info id="Structure" order="1" sideWeight="0.5019763" side_tool="true" weight="0.2126394" />
       <window_info id="Favorites" order="2" sideWeight="0.5019763" side_tool="true" weight="0.2126394" />
       <window_info id="Capture Tool" order="3" />
@@ -437,7 +471,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891247" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49734747" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41909814" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37400532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,9 +557,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/skleaning/logisticregression_rssi.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/process/extract_param.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -590,13 +624,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/rssi.csv" />
     <entry file="file://$PROJECT_DIR$/out/surface.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-94405" />
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pyshark/packet/layer.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -631,79 +665,69 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/portal-trapeze.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/dlink.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/iphonex.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/qwer.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/asus-db202.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/mrdk.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/chaoweilanmao-huawei.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/asc-201.csv" />
     <entry file="file://$PROJECT_DIR$/out/asc-201.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/skleaning/logisticregression_iris.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/training/bigboy.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/bigboy.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -712,19 +736,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/process/extract.py">
+    <entry file="file://$PROJECT_DIR$/src/skleaning/logisticregression_rssi.py" />
+    <entry file="file://$PROJECT_DIR$/src/skleaning/logisticregression_iris.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="228">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
-            <element signature="e#137#151#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/skleaning/run_machine_learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="78" column="49" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/seabornlearning/displot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="475">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
             <element signature="e#102#121#0" expanded="true" />
@@ -732,30 +764,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/skleaning/logisticregression_rssi.py">
+    <entry file="file://$PROJECT_DIR$/data/str.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
-          <folding>
-            <element signature="e#111#162#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="309" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pretty.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/skleaning/data_generation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+        <state relative-caret-position="44">
+          <caret line="10" selection-start-line="10" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#102#121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/skleaning/run_machine_learning.py">
+    <entry file="file://$PROJECT_DIR$/src/process/extract_rssi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        <state relative-caret-position="179">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#137#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/process/extract_param.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
         </state>
       </provider>
     </entry>

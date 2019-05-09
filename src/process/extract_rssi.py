@@ -11,19 +11,19 @@ from sklearn.preprocessing import StandardScaler
 
 ap_name = [
     'asc-201',
+    'mrdrivingduck',
+    'bigboy',
     'asus-db202',
     'cca01',
-    'chaoweilanmao-huawei',
-    'chaoweilanmao-soft',
     'dlink',
-    'iphonex',
     'mrdk',
-    'mrdrivingduck',
     'portal-juniper',
     'portal-trapeze',
     'qwer',
+    'chaoweilanmao-soft',
     'surface',
-    'bigboy'
+    'chaoweilanmao-huawei',
+    'iphonex',
 ]
 
 for i in range(len(ap_name)):
@@ -50,7 +50,7 @@ for i in range(len(ap_name)):
         df = df.iloc[0:5000, :]
 
     # print(df)
-    df.to_csv('out/' + ap_name[i] + '.csv')
+    # df.to_csv('out/' + ap_name[i] + '.csv')
 
     """
         @function Extracting fixed fields in string format
