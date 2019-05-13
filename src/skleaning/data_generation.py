@@ -1,7 +1,7 @@
 """
     @author mrdrivingduck
     @version 2019-05-08
-    @description Calculate the distance of
+    @description Calculate the distance of RSSI sequences
 """
 
 import pandas as pd
