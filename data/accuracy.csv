@@ -1,0 +1,43 @@
+AP,Accuracy,Algorithm
+A(1),0.8938,Logistic Regression
+A(1),0.9131,SVM
+A(1),0.8985,Gaussian Naïve Bayes
+A(2),0.9977,Logistic Regression
+A(2),0.9977,SVM
+A(2),0.9977,Gaussian Naïve Bayes
+B(1),0.9438,Logistic Regression
+B(1),0.9438,SVM
+B(1),0.9361,Gaussian Naïve Bayes
+B(2),0.9438,Logistic Regression
+B(2),0.9423,SVM
+B(2),0.9369,Gaussian Naïve Bayes
+C,0.9515,Logistic Regression
+C,0.9492,SVM
+C,0.9423,Gaussian Naïve Bayes
+D,0.9969,Logistic Regression
+D,0.9969,SVM
+D,0.9923,Gaussian Naïve Bayes
+E,0.9615,Logistic Regression
+E,0.9615,SVM
+E,0.9608,Gaussian Naïve Bayes
+F,0.9992,Logistic Regression
+F,0.9992,SVM
+F,1.0000,Gaussian Naïve Bayes
+G,0.9615,Logistic Regression
+G,0.9615,SVM
+G,0.9608,Gaussian Naïve Bayes
+H,0.8923,Logistic Regression
+H,0.8869,SVM
+H,0.8669,Gaussian Naïve Bayes
+I,0.9092,Logistic Regression
+I,0.9608,SVM
+I,0.9523,Gaussian Naïve Bayes
+J,1.0000,Logistic Regression
+J,1.0000,SVM
+J,1.0000,Gaussian Naïve Bayes
+K,0.9869,Logistic Regression
+K,0.9877,SVM
+K,0.9846,Gaussian Naïve Bayes
+L,0.9377,Logistic Regression
+L,0.9715,SVM
+L,0.9638,Gaussian Naïve Bayes
